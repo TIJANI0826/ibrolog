@@ -1,0 +1,24 @@
+asgiref==3.2.10
+beautifulsoup4==4.9.1
+dj-database-url==0.5.0
+Django==3.0.8
+-e git://github.com/Fantomas42/django-blog-zinnia.git@881101a9d1d455b2fc581d6f4ae0947cdd8126c6#egg=django_blog_zinnia
+django-contrib-comments==1.9.2
+django-heroku==0.3.1
+django-js-asset==1.2.2
+django-mptt==0.11.0
+django-tagging==0.5.0
+django-tinymce==3.0.2
+django-xmlrpc==0.1.8
+gunicorn==20.0.4
+Markdown==3.2.2
+mots-vides==2015.5.11
+Pillow==7.2.0
+psycopg2==2.8.5
+pyparsing==2.4.7
+pytz==2020.1
+regex==2020.7.14
+six==1.15.0
+soupsieve==2.0.1
+sqlparse==0.3.1
+whitenoise==5.1.0

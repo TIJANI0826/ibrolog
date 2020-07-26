@@ -1,0 +1,15 @@
+{% extends "zinnia/entry_archive.html" %}
+{% load i18n %}
+
+{% block content-related %}
+{% if date_list %}
+<h3>{% trans "Yearly archives" %}</h3>
+<ul class="no-bullet inline-list">
+  {% for date in date_list %}
+  <li>
+    <a href="{% url 'zinnia:entry_archive_year' date|date:"Y" %}" rel="archives">{{ date|date:"Y" }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endblock content-related %}
