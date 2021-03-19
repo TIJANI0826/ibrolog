@@ -1,7 +1,7 @@
 asgiref==3.2.10
 beautifulsoup4==4.9.1
 dj-database-url==0.5.0
-Django==3.0.8
+Django==3.1.6
 -e git://github.com/Fantomas42/django-blog-zinnia.git@881101a9d1d455b2fc581d6f4ae0947cdd8126c6#egg=django_blog_zinnia
 django-contrib-comments==1.9.2
 django-heroku==0.3.1
