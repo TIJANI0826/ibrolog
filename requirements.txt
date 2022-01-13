@@ -13,7 +13,7 @@ django-xmlrpc==0.1.8
 gunicorn==20.0.4
 Markdown==3.2.2
 mots-vides==2015.5.11
-Pillow==8.1.1
+Pillow==9.0.0
 psycopg2==2.8.5
 pyparsing==2.4.7
 pytz==2020.1
